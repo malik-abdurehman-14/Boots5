@@ -1,0 +1,544 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    height: 100%;
+  }
+  
+  .sidebar {
+    position: fixed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 300px;;
+    height: 97vh; 
+    cursor: pointer;
+  }
+
+  .sidebar:hover{
+    .close-btn{
+        transform: scale(1.5);
+        transition-duration: 0.5s;
+        color: white;
+        cursor: pointer;
+    }
+  }
+  
+  .close-btn {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    right: 25px;
+  }
+
+  .close-btn a{
+    border-radius: 50%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    border: none;
+    background: none;
+  }
+  
+  .sidebar-img {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background: url('about-4-1.png') no-repeat center bottom;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .sidebar-area {
+    background: linear-gradient(to bottom right, rgb(244, 111, 22) ,  rgb(211, 174, 41));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    height: 100vh;
+  }
+  
+  .sidebar-nav {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+    margin: 10px 0;
+  }
+  
+  .sidebar-nav span {
+    color: white;
+    font-size: 18px;
+  }
+
+  .sidebar-nav i{
+       margin-right: 10px;
+  }
+
+.link2{
+      margin-left: 5px;
+  }
+
+  hr {
+    width: 80%;
+    border-color: white;
+  }
+  
+  .heading-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    align-self: flex-end;
+  }
+
+  .sidebar-content img{
+    align-self: flex-end;
+    margin-right: 30px;
+  }
+  
+  .sidebar-links {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    justify-content: space-between;
+  }
+
+.sidebar-links a{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+.card{
+    background-color: rgb(252, 236, 241);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: none;
+}
+
+
+.inner-col{
+    display:flex;
+     align-items: center;
+     margin-top: 70px;
+    justify-content: center;
+}
+
+
+
+
+.inner-col h2{
+    color:rgb(229, 166, 48);
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.inner-col p{
+   font-weight: lighter;
+}
+
+
+
+
+
+
+
+.inner-col-1{
+    display:flex;
+     align-items: center;
+     margin-top: 70px;
+    justify-content: center;
+}
+
+
+
+
+.inner-col-1 h2{
+    color:rgb(202, 47, 200);
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.inner-col-1 p{
+   font-weight: lighter;
+}
+
+
+
+
+
+
+.inner-col-2{
+    display:flex;
+     align-items: center;
+     margin-top: 70px;
+    justify-content: center;
+}
+
+
+
+
+.inner-col-2 h2{
+    color:rgb(65, 12, 95);
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.inner-col-2 p{
+   font-weight: lighter;
+}
+
+
+.inner-div{
+    padding: 20px;
+}
+
+
+
+.third-row{
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+}
+
+
+
+.price-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.2s;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+}
+
+.price-card h2 {
+    font-size:25px;
+    font-weight:500;
+    color: #575656;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 2.5em;
+    color: #6850b7;
+    margin: 0;
+}
+
+.price span {
+    font-size: 0.5em;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul li {
+    font-weight: lighter;
+    color: #333;
+    margin: 10px 0;
+}
+
+button {
+    /* background: linear-gradient(to right, #ff0077, #ff3300); */
+    border: 1px solid  rgb(52, 35, 145);
+    border-radius: 5px;
+    color: rgb(52, 35, 145);
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+
+
+
+
+.price-card-2 {
+    background-color: rgb(252, 236, 241);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.2s;
+}
+
+.price-card-2:hover {
+    transform: scale(1.05);
+}
+
+.price-card-2 h2 {
+    font-size:25px;
+    font-weight:500;
+    color: #575656;
+    margin-bottom: 20px;
+}
+
+.price-card-2 .price {
+    font-size: 2.5em;
+    color: #b75068;
+    margin: 0;
+}
+
+.price span {
+    font-size: 0.5em;
+    color: #666;
+}
+
+
+.price-card-2 button {
+    background: linear-gradient(to right, #ff0077, #ff3300);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.price-card-2 button:hover {
+    background: linear-gradient(to right, #ff3300, #ff0077);
+}
+
+
+
+
+
+
+
+.forth-row{
+   align-items: center;
+   padding-bottom: 100px;
+   align-items:center;
+   justify-content: center;
+   align-content: center;
+}
+
+.forth-row .heading{
+    margin-top: 20px;
+margin-bottom: 50px;
+}
+.heading h2{
+    font-weight: 700;
+}
+
+
+.img-fluid{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* Footer-area */
+
+
+
+
+
+
+
+.join-card{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(90px);
+    margin-bottom: -100px;
+    position: relative; /* Add this */
+    z-index: 1;
+}
+
+
+.join-card h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.join-card p{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: lighter;
+   font-style: italic;
+
+}
+
+.join-card a{
+    padding: 15px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #a35ec3 0%, #ff33f1 71%);
+
+
+}
+.buttom-card img{
+    width: 100%;
+    position: relative; /* Add this */
+    z-index: 0;
+    border-radius: 15px;
+}
+
+
+
+
+.footer-row{
+   
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(90px);
+    background: linear-gradient(to bottom right, #b9a8ba 0%, #d3bdd2 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-row p{
+    font-size: 12px;
+    color: #c84b90;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+
+    .col-lg-4 {
+        order: -1;
+      }
+    
+      .col-lg-8 {
+        order: 1;
+        margin-top: 50px;
+      }
+
+
+  .sidebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: auto; 
+    width: 100%;
+    position: relative;
+  }
+  .close-btn{
+    position: fixed;
+    right: 40px;
+    top: 30px;
+
+  }
+
+  .sidebar-content{
+    height: auto;
+  }
+  .sidebar-content img{
+    display: none;
+  }
+    
+  .heading-text{
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    top: 25px; 
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+  }
+  }
+
+
+
+
+
+
+  @media (max-width: 740px) {
+    .footer-row{
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    .join-card{
+        margin-bottom: -50px;
+    }
+    
+    .join-card a{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+
+
+  @media (max-width: 450px) {
+    .inner-col{
+        flex-direction: column;
+    }
+    .inner-col-1{
+        flex-direction: column;
+    }
+
+    .img{
+        order: -1;
+    }
+   .inner-div{
+        order: 1;
+    }
+    .inner-col-2{
+        flex-direction: column;
+    }
+    
+  }
